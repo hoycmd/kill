@@ -63,14 +63,6 @@ inventory.Melee.Value = true;
 inventory.Explosive.Value = true;
 inventory.Build.Value = true;
 inventory.BuildInfinity.Value = true;
-
-// ��������� ��� ������ �����
-Build.GetContext().BlocksSet.Value = BuildBlocksSet.AllClear;
-
-// ������������ �����
-Spawns.GetContext().RespawnTime.Value = 0;
-// ��������� ������� ��
-var inventory = lnventory.GetContext();
 inventory.Secondarylnfinity.Value = true;
 inventory.BuildInfinitylnfinity.Value = true;
 inventory.Explosivelnfinity.Value = true;
@@ -78,5 +70,12 @@ inventory.Buildlnfinity.Value = true;
 inventory.Mainlnfinity.Value = true;
 inventory.Meleelnfinity.Value = true;
 
+
+
+// ��������� ��� ������ �����
+Build.GetContext().BlocksSet.Value = BuildBlocksSet.AllClear;
+
+// ������������ �����
+Spawns.GetContext().RespawnTime.Value = 0;
 
 
